@@ -92,7 +92,7 @@ public class MainActivity extends BaseActivity {
         studyLst.add(new StudyItem("ライフサイクル",
                 LifecycleActivity.class,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("Service",
-                null,Calendar.getInstance().getTime()));
+                ServiceActivity.class,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("ContentProvider",
                 null,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("Sqlite3",
