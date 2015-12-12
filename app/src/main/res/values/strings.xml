@@ -7,4 +7,6 @@
     <string name="title_activity_sync">SyncActivity</string>
     <string name="title_activity_service">ServiceActivity</string>
     <string name="title_activity_sqlite">SQLiteActivity</string>
+    <string name="title_activity_content_provider">ContentProviderActivity</string>
+    <string name="title_activity_dialog">DialogActivity</string>
 </resources>

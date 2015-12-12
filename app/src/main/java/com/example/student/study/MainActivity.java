@@ -94,13 +94,13 @@ public class MainActivity extends BaseActivity {
         studyLst.add(new StudyItem("Service",
                 ServiceActivity.class,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("ContentProvider",
-                null,Calendar.getInstance().getTime()));
+                ContentProviderActivity.class,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("Sqlite3",
                 SQLiteActivity.class,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("非同期処理",
                 AsyncActivity.class,Calendar.getInstance().getTime()));
         studyLst.add(new StudyItem("よく使うView/Widget(dialog.menu)",
-                null,Calendar.getInstance().getTime()));
+                DialogActivity.class,Calendar.getInstance().getTime()));
 
         // リストデータをAdapterへ設定
         StudySampleAdapter adapter = new StudySampleAdapter(this);
